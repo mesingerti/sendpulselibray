@@ -81,7 +81,7 @@ function insert() {
     }),
     createScriptElement(getHost()).then((function() {
         var e = document.getElementsByTagName("sp-live-chat").item(0);
-        e.style.zIndex = "2147483646",
+        e.style.zIndex = "-1",
         e.style.position = "fixed",
         e.style.bottom = 0,
         e.style.display = "block",
